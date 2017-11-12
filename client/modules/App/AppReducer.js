@@ -1,4 +1,3 @@
-// Import Actions
 import { TOGGLE_ADD_POST, TOGGLE_EDIT_POST } from './AppActions';
 
 
