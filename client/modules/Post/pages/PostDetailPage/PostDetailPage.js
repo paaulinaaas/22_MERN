@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { FormattedMessage, injectIntl} from 'react-intl';
 import { getShowEditPost } from '../../../App/AppReducer';
 import { toggleEditPost } from '../../../App/AppActions';
-import styles from './PostDetailPage.css';
+import styles from '../../components/PostListItem/PostListItem.css';
 import { fetchPost, editPostRequest} from '../../PostActions';
 import { getPost } from '../../PostReducer';
 
